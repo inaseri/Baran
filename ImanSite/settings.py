@@ -37,9 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     'Iman',
-    'absenteeism',
-    'pwa',
-    'corsheaders',
+    'absenteeism'
 ]
 AUTH_USER_MODEL = "absenteeism.User"
 # defaults
@@ -199,8 +197,3 @@ FORMAT_MODULE_PATH = [
     'Iman.formats',
     'ImanSite.formats',
 ]
-
-
-
-
-PWA_SERVICE_WORKER_PATH = os.path.join(BASE_DIR, 'Iman/static/theme1/js', 'serviceworker.js')

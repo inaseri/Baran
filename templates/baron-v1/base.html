@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 {%  load static %}
-{% load pwa %}
 <html lang="fa">
   <head>
     <meta charset="utf-8">
@@ -16,7 +15,6 @@
       <link href="{% static 'theme1/css/style.css'%}" rel="stylesheet">
         <link rel="manifest" href="{% static 'theme1/manifest.json'%}">
     {% block css %}{% endblock %}
-  {% progressive_web_app_meta %}
   </head>
   <body>
   {% block body %}{% endblock %}
