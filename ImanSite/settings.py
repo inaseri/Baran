@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.humanize',
     'Iman',
     'absenteeism'
-]
-AUTH_USER_MODEL = "absenteeism.User"
+# ]
+# AUTH_USER_MODEL = "absenteeism.User"
 # defaults
 
 JALALI_DATE_DEFAULTS = {
