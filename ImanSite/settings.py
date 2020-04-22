@@ -80,24 +80,24 @@ WSGI_APPLICATION = 'ImanSite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
- # for hosseiny
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'iman_acc',
-        'USER': 'iman',
-        'PASSWORD': 'Iman.3802',
-        'HOST': '127.0.0.1',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+ # for hosseiny
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'iman_acc',
+#         'USER': 'iman',
+#         'PASSWORD': 'Iman.3802',
+#         'HOST': '127.0.0.1',
+#         'PORT': '',
+#     }
+# }
 
 
 # Password validation
